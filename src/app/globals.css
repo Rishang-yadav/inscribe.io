@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.center{
+  @apply flex items-center justify-center;
+}
+
+.bg{
+  background-image: url('/assets/images/tech.webp');
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%;
+  height: 100vh; /* Makes the element cover the full viewport height */
+}
